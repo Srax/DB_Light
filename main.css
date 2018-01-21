@@ -1330,11 +1330,13 @@ tr:nth-child(odd) {
 }
 
 #torrents tr.sticky {
-    background-color: #363636;
+    background-color: #c1c1c1;
+    color: #101010;
 }
 
 #torrents tr.sticky:nth-child(odd) {
-    background-color: #3a3a3a;
+    background-color: #afafaf;
+    color: #101010;
 }
 
 td.label {
@@ -1389,6 +1391,7 @@ td.label {
 
 .torrent_table tr:nth-child(odd) {
     background-color: #c1c1c1;
+    color: #101010;
 }
 
 .torrent_table tr a b {
