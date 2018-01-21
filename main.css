@@ -1,9 +1,11 @@
 /* [START: main.css]
 /* Layout (Torrents page) */
-/* DB_WHITE */
+/* MASTER */
+/* DB_WHITE */ 
+
 
 #lolgo {
-    background-image: url('https://i.imgur.com/XtTN41T.png');
+    background-image: url('images/dblogo.png');
     background-repeat: no-repeat;
     background-position: 0px 15px;
     width: 800px;
@@ -59,8 +61,8 @@ body {
     width: 100%;
     font: normal 14px/1.3em Roboto, 'Helvetica Neue', Tahoma, sans-serif;
     min-width: 768px;
-    color: black;
-    background-color: #c9c9ca;
+    color: white;
+    background-color: #1a1a1a;
 }
 
 .torrent_table_v2_headline {
@@ -81,13 +83,13 @@ body {
 a {
     text-decoration: none;
     border: none;
-    color: #000000;
+    color: #e0e0e0;
     transition: color 0.2s ease;
 }
 
 a:hover {
     text-decoration: none;
-    color: #505050;
+    color: #fff;
     transition: color 0.2s ease;
 }
 
@@ -96,7 +98,7 @@ h2,
 h3,
 h4 {
     margin: 5px 0px;
-    color: #000000;
+    color: #e0e0e0;
     font-weight: bold;
 }
 
@@ -121,11 +123,11 @@ li {
 }
 
 input,
-button {padding-top: 4px;background: #e4e4e4;border: 1px solid #937341;padding-left: 6px;padding-bottom: 4px;padding-right: 6px;transition: 0.2s ease;margin-right: 4px;color: #000000;/* font: normal 14px/1.3em Roboto, 'Helvetica Neue', Tahoma, sans-serif; */transition: 0.2s ease;font-weight: bold;outline: none;}
+button {padding-top: 4px;background: #2c2c2c;border: 1px solid #C0C0C0;padding-left: 6px;padding-bottom: 4px;padding-right: 6px;transition: 0.2s ease;margin-right: 4px;color: #e0e0e0;/* font: normal 14px/1.3em Roboto, 'Helvetica Neue', Tahoma, sans-serif; */transition: 0.2s ease;font-weight: bold;outline: none;}
 
 input:hover {
-    color: black;
-    border-color: black;
+    color: white;
+    border-color: white;
     transition: 0.2s ease;
 }
 
@@ -158,8 +160,17 @@ input[type=password],
 input[type=file] {
     padding: 2px 3px;
     color: #aaa;
-    background: #eaeaea;
+    background: #202020;
+    background: -moz-linear-gradient(top, #202020 0%, #202020 50%, #1e1e1e 51%, #1a1a1a 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #202020), color-stop(50%, #202020), color-stop(51%, #1e1e1e), color-stop(100%, #1a1a1a));
+    background: -webkit-linear-gradient(top, #202020 0%, #202020 50%, #1e1e1e 51%, #1a1a1a 100%);
+    background: -o-linear-gradient(top, #202020 0%, #202020 50%, #1e1e1e 51%, #1a1a1a 100%);
+    background: -ms-linear-gradient(top, #202020 0%, #202020 50%, #1e1e1e 51%, #1a1a1a 100%);
+    background: linear-gradient(to bottom, #202020 0%, #202020 50%, #1e1e1e 51%, #1a1a1a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#202020', endColorstr='#1a1a1a', GradientType=0);
+
     border-radius: 4px;
+
     border-top: 1px solid #141414;
     border-left: 1px solid #141414;
     border-right: 1px solid #212121;
@@ -278,7 +289,7 @@ ul.thin li {
 
 #menu {
     display: block;
-    background: #eaeaea;
+    background: #222222;
     position: absolute;
     overflow: hidden;
     text-align: center;
@@ -287,9 +298,10 @@ ul.thin li {
     top: 136px;
     padding: 0.0em 0;
     font: 14px/40px Tahoma, Verdana, sans-serif;
-    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.1);
-    border-top: 1px solid #9a9a9a;
-    border-bottom: 1px solid #9a9a9a;
+
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, .4);
+    border-top: 1px solid #C0C0C0;
+    border-bottom: 1px solid #C0C0C0;
 }
 
 #menu ul li {
@@ -299,16 +311,16 @@ ul.thin li {
 }
 
 #menu ul li a {
-    color: #505050;
-    text-shadow: 1px 1px 0 #fff;
+    color: #e0e0e0;
+    text-shadow: 1px 1px 0 #000;
     transition: color 0.2s ease;
-    font-weight: bold;
     text-transform: uppercase;
 }
 
 #menu ul li a:hover {
-    color: #000000;
+    color: #fff;
     text-decoration: none;
+
 }
 
 #userinfo img {
@@ -331,8 +343,8 @@ ul.thin li {
     position: relative;
     padding: 2px 2px 2px 2px;
     text-align: center;
-    border: 1px solid #ababab;
-    color: #000000;
+    border: 1px solid #C0C0C0;
+    color: #e0e0e0;
 }
 
 #searchbars ul li {
@@ -394,20 +406,20 @@ ul.thin li {
     width: 250px;
     margin: 0px auto 0px auto;
     box-shadow: 0 0 5px #1a1a1a;
-    background: #eaeaea;
-    border: 1px solid #937341;
+    background: #222222;
+    border: 1px solid #C0C0C0;
     border-radius: 4px;
 }
 
 .alertbar a {
-    color: black;
+    color: white;
     padding: 10px;
     display: block;
     font-size: 14px;
 }
 
 .alertbar a font {
-    color: #000000;
+    color: #e0e0e0;
     !important;
     text-shadow: 1px 1px 0 black;
     transition: color 0.2s ease;
@@ -417,11 +429,11 @@ ul.thin li {
     padding: 0px;
     margin: 0px;
     display: inline;
-    color: #000000;
+    color: #e0e0e0;
 }
 
 .alertbar a:hover font {
-    color: #505050;
+    color: #fff;
 }
 
 .alertbar font[color=green] {
@@ -537,7 +549,7 @@ p.min_padding {
     height: 100%;
     margin-left: 50px;
     overflow: hidden;
-    black-space: nowrap;
+    white-space: nowrap;
     text-overflow: ellipsis;
 }
 
@@ -620,7 +632,7 @@ td {
     font-size: 14px;
     overflow: hidden;
     text-overflow: ellipsis;
-    black-space: nowrap;
+    white-space: nowrap;
     display: inline-block;
     width: 250px;
     color: #afafaf;
@@ -654,14 +666,14 @@ td.colhead,
     padding: 10px 8px 10px 8px;
     font-weight: bold;
     font-size: 10pt;
-    black-space: nowrap;
+    white-space: nowrap;
     width: auto;
     text-align: center;
-    background: #eaeaea;
+    background: #222222;
 }
 
 .colheadmenu a:hover {
-    /*color: #000000;*/
+    /*color: #e0e0e0;*/
 }
 
 .colheadmenuspace {
@@ -675,7 +687,7 @@ td.colhead,
 }
 
 .colheadmenuactive a {
-    color: #202020;
+    color: #fff;
 }
 
 .colheadmenuactive a:hover {
@@ -700,10 +712,10 @@ td.colhead,
 .pagination > .active > span:hover {
     z-index: 0;
     font-weight: bold;
-    color: #000000;
+    color: #e0e0e0;
     font-size: 10pt;
     cursor: hand;
-    background-color: #e4e4e4;
+    background-color: #2C2C2C;
     border-color: #151515;
 }
 
@@ -711,7 +723,7 @@ td.colhead,
     font-weight: bold;
     font-size: 10pt;
     background-color: #262626;
-    color: #000000;
+    color: #e0e0e0;
     border-color: #151515;
 }
 
@@ -728,8 +740,8 @@ td.colhead,
 
 .colheadmenuopret a {
     padding-top: 6px;
-    background: #e4e4e4;
-    border: 1px solid #937341;
+    background: #2c2c2c;
+    border: 1px solid #C0C0C0;
     padding-left: 8px;
     padding-bottom: 6px;
     padding-right: 8px;
@@ -877,7 +889,7 @@ ul.poll li.graph {
 }
 
 .nobr {
-    black-space: nowrap;
+    white-space: nowrap;
 }
 
 /* Specific for new browse page */
@@ -895,7 +907,7 @@ ul.poll li.graph {
 }
 
 .searchtable .selected a div {
-    color: #202020;
+    color: #fff;
     text-decoration: underline;
     font-weight: bold;
 }
@@ -1236,9 +1248,9 @@ span.powerleech {
 }
 
 .box {
-    background-color: #d2d2d2;
-    border-top: 1px solid #9a9a9a;
-    border-bottom: 1px solid #9a9a9a;
+    background-color: #222222;
+    border-top: 1px solid #C0C0C0;
+    border-bottom: 1px solid #C0C0C0;
 }
 
 
@@ -1262,20 +1274,20 @@ span.powerleech {
 
 
 .pad {
-    background-color: #e4e4e4;
-    border: 1px solid #e4e4e4;
+    background-color: #2c2c2c;
+    border: 1px solid #2c2c2c;
 }
 
 .cattop {
-    background: #e4e4e4;
+    background: #2c2c2c;
 }
 
 .catdown {
-    background: #e4e4e4;
+    background: #2c2c2c;
 }
 
 .searchtable tr {
-    background: #e4e4e4;
+    background: #2c2c2c;
 }
 
 .searchtable .spacer,
@@ -1293,17 +1305,17 @@ span.powerleech {
 
 table {
     border-collapse: collapse;
-    /*border: 1px solid #937341;*/
+    /*border: 1px solid #C0C0C0;*/
     border-radius: 4px;
 }
 
 tr {
     border: 0;
-    background-color: #d2d2d2;
+    background-color: #262626;
 }
 
 tr:nth-child(odd) {
-    background-color: #e4e4e4;
+    background-color: #2c2c2c;
 }
 
 #torrents tr.sticky {
@@ -1315,7 +1327,7 @@ tr:nth-child(odd) {
 }
 
 td.label {
-    background-color: #e4e4e4;
+    background-color: #2c2c2c;
 }
 
 .error_message {
@@ -1323,7 +1335,7 @@ td.label {
     font-size: 13px;
     padding: 6px 10px 6px 10px;
     font-weight: normal;
-    color: black;
+    color: white;
     border-radius: 8px;
     border: 1px solid #962121;
     background: #b04848;
@@ -1337,7 +1349,7 @@ td.label {
     font-size: 13px;
     padding: 6px 10px 6px 10px;
     font-weight: normal;
-    color: black;
+    color: white;
     border-radius: 8px;
     border: 1px solid #8dc861;
     background: #6aa34b;
@@ -1365,11 +1377,11 @@ td.label {
 }
 
 .torrent_table tr:nth-child(odd) {
-    background-color: #e4e4e4;
+    background-color: #2C2C2C;
 }
 
 .torrent_table tr a b {
-    color: #000000;
+    color: #e0e0e0;
 }
 
 /*.sticky, tr.sticky {
@@ -1377,11 +1389,11 @@ td.label {
 }*/
 
 .selected {
-    background: #e4e4e4;
+    background: #2c2c2c;
 }
 
 .selected a {
-    color: black;
+    color: white;
     font-weight: bold;
 }
 
@@ -1418,7 +1430,7 @@ table.forum_post td {
 }
 
 table.forum_unread {
-    border: 2px solid #bab98a;
+    border: 2px solid  #C0C0C0;
 }
 
 blockquote {
@@ -1435,13 +1447,13 @@ tr.unreadpm {
 
 .center_poll {
     background: #fc4c00;
-    background: -moz-linear-gradient(top, #9e9475 0%, #000000 50%, #000000 51%, #9e9475 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9e9475), color-stop(50%, #000000), color-stop(51%, #000000), color-stop(100%, #9e9475));
-    background: -webkit-linear-gradient(top, #9e9475 0%, #000000 50%, #000000 51%, #9e9475 100%);
-    background: -o-linear-gradient(top, #9e9475 0%, #000000 50%, #000000 51%, #9e9475 100%);
-    background: -ms-linear-gradient(top, #9e9475 0%, #000000 50%, #000000 51%, #9e9475 100%);
-    background: linear-gradient(to bottom, #9e9475 0%, #000000 50%, #000000 51%, #9e9475 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#9e9475', GradientType=0);
+    background: -moz-linear-gradient(top, #949494 0%, #e0e0e0 50%, #e0e0e0 51%, #949494 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #949494), color-stop(50%, #e0e0e0), color-stop(51%, #e0e0e0), color-stop(100%, #949494));
+    background: -webkit-linear-gradient(top, #949494 0%, #e0e0e0 50%, #e0e0e0 51%, #949494 100%);
+    background: -o-linear-gradient(top, #949494 0%, #e0e0e0 50%, #e0e0e0 51%, #949494 100%);
+    background: -ms-linear-gradient(top, #949494 0%, #e0e0e0 50%, #e0e0e0 51%, #949494 100%);
+    background: linear-gradient(to bottom, #949494 0%, #e0e0e0 50%, #e0e0e0 51%, #949494 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', endColorstr='#949494', GradientType=0);
     border-radius: 2px;
     box-shadow: 0 0 1px #111;
 }
@@ -1457,7 +1469,7 @@ tr.unreadpm {
     right: 10px;
     clear: left;
     height: 120px;
-    background: #c9c9ca;
+    background: #1a1a1a;
     width: 540px;
 }
 
@@ -1494,7 +1506,7 @@ tr.unreadpm {
     top: -5px;
     font-weight: bold;
     text-align: right;
-    background: #c9c9ca;
+    background: #202020;
 }
 
 #userinfo #userinfo_username .user_stat_pics {
@@ -1577,7 +1589,7 @@ tr.unreadpm {
     line-height: 20px;
     vertical-align: middle;
     float: left;
-    color: #000000;
+    color: #e0e0e0;
     margin: 0 2px 0 2px;
 }
 
@@ -1615,7 +1627,7 @@ tr.unreadpm {
 
 #stats_ratio .ratio_text {
     overflow: hidden;
-    black-space: nowrap;
+    white-space: nowrap;
     text-indent: 101%;
     display: block;
     float: left;
@@ -1661,7 +1673,7 @@ tr.unreadpm {
 }
 
 #userinfo a:hover {
-    color: #505050;
+    color: #fff;
 }
 
 #nav_donate font {
@@ -1669,16 +1681,16 @@ tr.unreadpm {
 }
 
 #nav_donate a:hover font {
-    color: black !important;
+    color: white !important;
 }
 
 #nav_donate > a > span {
-    color: #202020 !important;
+    color: #fff !important;
     transition: color 0.2s ease;
 }
 
 #nav_donate > a:hover > span {
-    color: #000000 !important;
+    color: #C0C0C0 !important;
     transition: color 0.2s ease;
 }
 
@@ -1688,14 +1700,14 @@ tr.unreadpm {
 #forums .forum_list .last_topic strong a,
 #forums .thinforum .colhead_dark strong a,
 #top10 table strong a {
-    color: #000000;
+    color: #e0e0e0;
 }
 
 #forums .forum_index h4 a:hover,
 #forums .forum_list .last_topic strong a:hover,
 #forums .thinforum .colhead_dark strong a:hover,
 #top10 table strong a:hover {
-    color: #505050;
+    color: #fff;
 }
 
 #forums span.forumicon {
@@ -1751,12 +1763,12 @@ tr.unreadpm {
 }
 
 #request_table a {
-    color: #000000;
+    color: #e0e0e0;
     transition: color 0.2s ease;
 }
 
 #request_table a:hover {
-    color: #505050;
+    color: #fff;
     transition: color 0.2s ease;
 }
 
@@ -1778,7 +1790,7 @@ td[style="background-color: black;border:none;"] {
 }
 
 .fancybox-skin {
-    color: black;
+    color: white;
 }
 
 /* MOD BAR */
@@ -1792,7 +1804,7 @@ td[style="background-color: black;border:none;"] {
 .modbar a:first-child {
     padding: 2px 15px 2px 15px;
     border-radius: 5px;
-    border: 1px solid #937341;
+    border: 1px solid #C0C0C0;
 }
 
 #torrents #searchform {
@@ -1810,11 +1822,11 @@ td[style="background-color: black;border:none;"] {
     line-height: 1.5em;
     padding-bottom: 5px;
     width: 580px;
-    black-space: pre-wrap;
+    white-space: pre-wrap;
 }
 
 .torrent_table .nfo_wrap pre a {
-    color: black;
+    color: white;
 }
 
 .torrent_table .nfo_wrap pre a:hover {
@@ -1823,7 +1835,7 @@ td[style="background-color: black;border:none;"] {
 
 .labelop {
     color: #000;
-    background-color: #000000;
+    background-color: #e0e0e0;
 }
 
 
@@ -1844,14 +1856,14 @@ td[style="background-color: black;border:none;"] {
 
 .bonus input[type=text] {
     padding-top: 4px;
-    background: #e4e4e4;
-    border: 1px solid #937341;
+    background: #2c2c2c;
+    border: 1px solid #C0C0C0;
     padding-left: 6px;
     padding-bottom: 4px;
     padding-right: 6px;
     transition: 0.2s ease;
     margin-right: 4px;
-    color: #000000;
+    color: #e0e0e0;
     transition: 0.2s ease;
     font-weight: bold;
     text-align: center;
@@ -1886,5 +1898,3 @@ input#post_preview {
 #bonus > #wrapper > #content > div  input[type="box"] {
     width: 60px;
 }
-
-
