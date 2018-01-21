@@ -150,12 +150,12 @@ input:hover {
 
 input[disabled],
 input:disabled {
-    background: #343434;
+    background: #9a9a9a;
 }
 
 input[disabled]:hover,
 input:disabled:hover {
-    color: #afafaf;
+    color: #fff;
     cursor: default !important;
 }
 
@@ -988,7 +988,7 @@ table.forum_post td.body {
 }
 
 table.forum_post td.body a {
-    border-bottom: 1px dotted #afafaf;
+    border-bottom: 1px dotted #808080;
 }
 
 table.forum_post td.body a:hover {
@@ -1436,7 +1436,7 @@ td.label {
 }
 
 table.forum_post td {
-    border: 1px solid #101010;
+    border: 1px solid #808080;
     border-radius: 4px;
 }
 
@@ -1689,12 +1689,12 @@ tr.unreadpm {
 }
 
 #nav_donate > a > span {
-    color: #fff !important;
+    color: #206de4 !important;
     transition: color 0.2s ease;
 }
 
 #nav_donate > a:hover > span {
-    color: #C0C0C0 !important;
+    color: #26b2de !important;
     transition: color 0.2s ease;
 }
 
