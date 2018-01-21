@@ -161,7 +161,7 @@ input:disabled:hover {
 
 textarea {
     padding: 2px 3px;
-    color: #aaa;
+    color: #fff;
     background: #202020;
     border-radius: 4px;
 
@@ -176,7 +176,7 @@ input[type=text],
 input[type=password],
 input[type=file] {
     padding: 2px 3px;
-    color: #aaa;
+    color: #fff;
     background: #9a9a9a;
     border-radius: 4px;
     border-top: 1px solid #141414;
