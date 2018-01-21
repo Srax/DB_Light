@@ -128,7 +128,7 @@ li {
 input,
 button {
     padding-top: 4px;
-    background: #c1c1c1;
+    background: #bbbbbb;
     border: 1px solid #C0C0C0;
     padding-left: 6px;
     padding-bottom: 4px;
@@ -724,7 +724,7 @@ td.colhead,
     color: #101010;
     font-size: 10pt;
     cursor: hand;
-    background-color: #c1c1c1;
+    background-color: #bbbbbb;
     border-color: #151515;
 }
 
@@ -749,7 +749,7 @@ td.colhead,
 
 .colheadmenuopret a {
     padding-top: 6px;
-    background: #c1c1c1;
+    background: #bbbbbb;
     border: 1px solid #C0C0C0;
     padding-left: 8px;
     padding-bottom: 6px;
@@ -1285,20 +1285,20 @@ span.powerleech {
 
 
 .pad {
-    background-color: #c1c1c1;
-    border: 1px solid #c1c1c1;
+    background-color: #bbbbbb;
+    border: 1px solid #bbbbbb;
 }
 
 .cattop {
-    background: #c1c1c1;
+    background: #bbbbbb;
 }
 
 .catdown {
-    background: #c1c1c1;
+    background: #bbbbbb;
 }
 
 .searchtable tr {
-    background: #c1c1c1;
+    background: #bbbbbb;
 }
 
 .searchtable .spacer,
@@ -1323,14 +1323,15 @@ table {
 tr {
     border: 0;
     background-color: #9a9a9a;
+    color: #101010;
 }
 
 tr:nth-child(odd) {
-    background-color: #c1c1c1;
+    background-color: #bbbbbb;
 }
 
 #torrents tr.sticky {
-    background-color: #c1c1c1;
+    background-color: #bbbbbb;
     color: #101010;
 }
 
@@ -1340,7 +1341,7 @@ tr:nth-child(odd) {
 }
 
 td.label {
-    background-color: #c1c1c1;
+    background-color: #bbbbbb;
 }
 
 .error_message {
@@ -1390,7 +1391,7 @@ td.label {
 }
 
 .torrent_table tr:nth-child(odd) {
-    background-color: #c1c1c1;
+    background-color: #bbbbbb;
     color: #101010;
 }
 
@@ -1403,7 +1404,7 @@ td.label {
 }*/
 
 .selected {
-    background: #c1c1c1;
+    background: #bbbbbb;
 }
 
 .selected a {
@@ -1866,7 +1867,7 @@ td[style="background-color: black;border:none;"] {
 
 .bonus input[type=text] {
     padding-top: 4px;
-    background: #c1c1c1;
+    background: #bbbbbb;
     border: 1px solid #C0C0C0;
     padding-left: 6px;
     padding-bottom: 4px;
